@@ -1,0 +1,109 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:50%;
+    background-color: bisque;
+}
+.nav{
+    .brand{
+        .container{
+            .img{
+                width: 80px;
+              height: 80px;        
+            }
+          
+        }
+        
+    }
+}
+.brand{
+    .container{
+
+        height:50%;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.4rem;
+        font-size: 1.8rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        color:#00754E;
+    
+    }
+    .toggle{
+        display: none;
+    }
+   
+}
+ul{
+    margin-top: 20px;
+    margin-left: 20%;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    border:2px;
+    gap: 1rem;
+    li{
+        a{
+            text-decoration: none;
+            border: 2px;
+            color:black;
+            font-size: 1.2 rem;
+            transition: 0ms.1s ease-in-out;
+            &:hover{
+                text-decoration: none;
+                color:black;
+            }
+        }
+        &:first-of-type{
+            a{
+                text-decoration: none;
+                color:black;
+                font-weight: 900;
+            }
+        }
+    }
+    
+}
+button a{
+    text-decoration: none;
+    color: #fdbe33;
+    &:hover{
+        text-decoration: none;
+        color: #030f27;
+    }
+}
+
+ul button {
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    color: #fdbe33;
+    background-color:#030f27;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    transition: 0.1s ease-in-out;
+    &:hover{
+        text-decoration: none;
+        color: #030f27;
+        background-color: #fdbe33;
+    }
+}
+button{
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    background-color: #07A2DA;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    transition: 0.1s ease-in-out;
+    &:hover{
+        background-color: black
+    }
+}
